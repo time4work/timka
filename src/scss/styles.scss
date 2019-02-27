@@ -1,0 +1,9 @@
+@import 'base/variables';
+
+body {
+    background: $bg;
+    h1 {
+        color: whitesmoke;
+        transition: all 320ms ease;
+    }
+}
