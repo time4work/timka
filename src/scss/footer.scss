@@ -1,0 +1,133 @@
+footer{
+    width: 100%;
+    padding-top: 4rem;
+    .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .logo{
+        img{
+            width: 280px;
+        }
+    }
+    .contact{
+        color: #525252;
+        font-family: 'AvenirNextCyr'; 
+        font-size: 16px;
+        font-weight: 300;
+         font-style: normal;
+         font-stretch: normal;
+         line-height: 2.21;
+         letter-spacing: 1.2px;
+         display: flex;
+         flex-wrap: wrap;
+         text-align: left;
+         margin: 1.9rem 0;
+      
+         i{
+           color: #e55ca6;
+           padding: 0 10px;
+           align-self: center;
+         }
+    }
+    .c-t{
+        margin-top: 4rem;
+    }
+
+}
+.footer-nav{
+    margin-top: 2rem;
+   ul{
+       li{
+           margin: 0.7rem 0;
+           a{
+            font-family: AvenirNextCyr;
+            font-size: 15px;
+            font-weight: 500;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 2;
+            letter-spacing: 0.8px;
+            text-align: left;
+            color: #444444;
+          
+           }
+       }
+   }
+}
+.footer-contact-us{
+    width: 550px;
+    margin-top: 2rem;
+    p{
+        font-family: AvenirNextCyr;
+        margin: 2rem 0;
+font-size: 21px;
+font-weight: 300;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.6;
+letter-spacing: 0.8px;
+text-align: left;
+color: #444444;
+
+    }
+    h1{
+        font-family: AvenirNextCyr-Demi;
+font-size: 39px;
+font-weight: normal;
+line-height: 1;
+letter-spacing: 1.5px;
+text-align: left;
+    }
+    input{
+        width: 100%;
+    }
+  
+}
+.footer-parallax{
+    width: 100%;
+    margin-top: -6rem;
+    .layer-1, .layer-2{
+        position: absolute;
+        width: 100%;
+    }
+    .layer-3{
+        position: relative;
+        width: 100%;
+    }
+    img{
+        width: 100%;
+    }
+}
+}
+
+.inputBox{
+position: relative;
+box-sizing: border-box;
+margin-bottom: 50px;
+}
+.inputBox .inputText{
+position: absolute;
+font-size: 24px;
+line-height: 50px;
+transition: .5s;
+opacity: .5;
+}
+.inputBox .input{
+position: relative;
+width: 100%;
+height: 50px;
+background: transparent;
+border: none;
+outline: none;
+font-size: 24px;
+border-bottom: 1px solid rgba(0,0,0,.5);
+
+}
+.focus .inputText{
+transform: translateY(-30px);
+font-size: 18px;
+opacity: 1;
+color: #00bcd4;
+
+}

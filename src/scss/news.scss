@@ -1,0 +1,107 @@
+#news{
+    .name-cat{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        h1{
+            width: auto;
+            text-align: left;
+        }
+        select{
+            align-self: center;
+            width: 215px;
+            font-family: AvenirNextCyr;
+            font-size: 21px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.33;
+            letter-spacing: 0.8px;
+            text-align: justify;
+            background-color: $soft-gray;
+        }
+    }
+    .wrapper-article{
+        width: 100%;
+        .article-preview{
+        background-color: $soft-gray;
+        padding: 2rem;
+        margin: 1rem 0;
+        h3{
+            font-family: AvenirNextCyr-Demi;
+            font-size: 40px;
+            font-weight: normal;
+            line-height: 0.73;
+            letter-spacing: 1.4px;
+            color: $blu;
+        }
+        p{
+            font-family: AvenirNextCyr;
+            font-size: 22px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.25;
+            letter-spacing: normal;
+            text-align: justify;
+            color: #1a1a1a;
+            margin: 2rem 0;
+        }
+        .previev-footer{
+            .data{
+            font-family: AvenirNextCyr;
+    font-size: 22px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: justify;
+    color: $color-font;
+    display: inline-block;
+    margin: 0;
+            }
+            .tags{
+                font-family: AvenirNextCyr;
+                font-size: 22px;
+                font-weight: 300;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.33;
+                letter-spacing: normal;
+                text-align: justify;
+                color: $blu;
+                display: inline-block;
+                margin: 0 1rem;
+            }
+            button{
+                background-color: $blu;
+                border-color: $blu;
+    width: 20%;
+    font-size: 22px;
+    color: white;
+    float: right;
+    display: inline-block;
+    margin-top: -20px;
+            }
+        }
+        }
+    }
+    .wrapper-pagination{
+        margin: 2rem auto;
+    }
+    .pagination{
+        .page-link{
+            border-radius: 50%;
+            padding: 0.3rem .6rem;
+            border: none;
+            background-color: #ededed;
+            margin: 0 0.5rem;
+            color:$color-font-dark;
+        }
+        .switch{
+            background: none;
+        }
+    }
+}

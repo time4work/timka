@@ -1,0 +1,172 @@
+.header-img{
+    width: 100%;
+    // background-color: #5e9051;
+    background: url(../../src/img/header-img.jpg) ;
+    // height: 300px;
+    img{
+        width: 100%;
+    }
+}
+
+h1{
+    width: 100%;
+    text-align: right;
+    font-family: AvenirNextCyr;
+    font-size: 63.5px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1b1b1b;
+    margin-bottom:2rem;
+}
+.left-bar{
+    width: 20%;
+    border: 3px solid $rose;
+    padding: 1rem;
+    h3{
+        font-family: AvenirNextCyr-Demi;
+        font-size: 34px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #777777;
+        margin-bottom: 1rem;
+    }
+    label{
+        font-family: AvenirNextCyr;
+  font-size: 21px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #777777;
+  margin-bottom: 1.5rem;
+    }
+
+}
+.right-bar{
+    width: 75%;
+    span{
+        font-family: AvenirNextCyr;
+        font-size: 21px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: -0.2px;
+        text-align: justify;
+        color: $color-font-dark;
+    }
+    .galary{
+        display: flex;
+        flex-wrap: wrap;
+         justify-content: space-between;
+         margin: 2rem 0;
+        
+        .albom{
+            width: 30%;
+        height: 327px;
+        margin: 1rem 0;
+        display: flex;
+        border: 1px solid black;
+        background-color: #bc40e773;
+    background-blend-mode: luminosity;
+    background-position: center;
+    span{
+        text-align: center;
+    margin: auto;
+    font-size: 48px;
+    font-family: AvenirNextCyr-Demi;
+    font-size: 41px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #bc40e7;
+    i{
+        font-size: 94px;
+        color: #1b1b1b;
+    }
+    }
+        }
+        .al-1{
+            background-image: url(../../src/img/galary.jpeg) ;        
+        }
+        .al-2{
+            background: url(../../src/img/galary2.jpg) center no-repeat;        
+        }
+        .al-3{
+            background: url(../../src/img/galary3.jpg) center no-repeat;        
+        }
+    }
+}
+input[type="checkbox"]:checked + label:before, 
+input[type="checkbox"]:not(:checked) + label:before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #dddddd;
+    background-color: #d0d0d0;
+}
+input[type="checkbox"]:checked, 
+input[type="checkbox"]:not(:checked)
+{
+    position: absolute;
+    left: -9999px;
+}
+
+input[type="checkbox"]:checked + label, 
+input[type="checkbox"]:not(:checked) + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
+    line-height: 20px;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked + label:after, 
+input[type="checkbox"]:not(:checked) + label:after {
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+input[type="checkbox"]:checked + label:after, 
+input[type="checkbox"]:not(:checked) + label:after {
+    left: 4px;
+    top: 4px;
+    width: 12px;
+    height: 8px;
+    border-radius: 1px;
+    border-left: 4px solid $color-font-dark;
+    border-bottom: 4px solid $color-font-dark;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+input[type="checkbox"]:not(:checked) + label:after{
+    opacity: 0;
+}
+
+input[type="checkbox"]:checked + label:after{
+    opacity: 1;
+}
+#galary{
+.wrapper{
+    justify-content: space-between;
+}
+}
