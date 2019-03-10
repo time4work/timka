@@ -1,0 +1,68 @@
+#about{
+    // .wrapper{
+    // width: 100%;
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
+    // }
+    h1{
+        margin: 3rem 0;
+        line-height: 1.2;
+        letter-spacing: 1.5px;
+        text-align: justify;
+        font-size: 49px;
+    }
+    h1{
+        color: $color-font-dark!important;
+    }
+    .left-bar{
+        p{
+        color: $gray;
+        }
+        i{
+            color: $yellow;
+            margin-right: 10px;
+        }
+        .admission{
+            h5{
+                margin: 3rem 0;
+                font-family: AvenirNextCyr;
+                font-size: 38px;
+                font-weight: 500;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: left;
+                color: $color-font;
+            }
+        }
+    }
+    .right-bar{
+        .category{
+            border-color: $yellow;
+        }
+        .certificate{
+            display: flex;
+             justify-content: space-between;
+           margin: 2rem 0;
+           p{
+            margin: 1rem 0;
+           }
+           i{
+            font-size: 58px;
+            align-self: center;
+            margin: 0 1rem;
+            color: $gray;
+           }
+        }
+        .last-news{
+            p{
+                color: $yellow;
+            }
+            .title{
+                color: $color-font-dark;
+            }
+        }
+    }
+}

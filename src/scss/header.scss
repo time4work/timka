@@ -84,15 +84,21 @@ header{
             }
             .design-link{
                 a{
-                color: #4a9ee5;
+                color: $blu;
                 }
                 &:hover{
-                    background-color: #4a9ee5;
+                    background-color: $blu;
                     a{
                     color: #fff;
                     }
                     cursor: pointer;
                 }
+            }
+            .design-link.active{
+                background-color: $blu;
+                    a{
+                    color: white;
+                    }
             }
             .galery-link{
                 a{
@@ -123,6 +129,12 @@ header{
                     }
                     cursor: pointer;
                 }
+            }
+            .price-link.active{
+                background-color: $rose;
+                    a{
+                    color: white;
+                    }
             }
             .contact-link{
                 a{

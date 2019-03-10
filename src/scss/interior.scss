@@ -1,0 +1,50 @@
+#interior{
+    h3{
+        font-family: AvenirNextCyr;
+        font-size: 60px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: right;
+        margin: 3rem 0;
+    }
+    .room{
+        width: 90%;
+        margin: 0 auto;
+        .reverse{
+            text-align: left;
+        }
+    }
+    p{
+        font-family: AvenirNextCyr;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: -0.2px;
+  text-align: justify;
+  color: $color-font;
+    }
+    .carousel{
+        width: 70%;
+        margin: 5rem auto;
+    }
+    .carousel-indicators li{
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        background-color: $blu;
+        align-self: center;
+    }
+    .carousel-indicators{
+        position: static;
+        margin-top: 1rem;
+    }
+    .carousel-indicators .active{
+        width: 25px;
+        height: 25px;
+    }
+}
