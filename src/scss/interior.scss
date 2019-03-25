@@ -17,6 +17,33 @@
             text-align: left;
         }
     }
+    .eat{
+        width: 100%;
+        background-color:$blu;
+        display: flex;
+        flex-wrap: wrap;
+            justify-content: space-around;
+        .img-back{
+            position: relative;
+        }
+        .eat-block{
+            width: 20%;
+            text-align: center;
+            img{
+                width: 75%;
+            }
+            p{
+                font-size: 30px;
+                font-weight: bold;
+                line-height: normal;
+                letter-spacing: normal;
+                /* text-align: left; */
+                color: #f8f9f9;
+                text-align: left;
+                margin: 3rem 0px;
+            }
+        }
+    }
     p{
         font-family: AvenirNextCyr;
   font-size: 25px;

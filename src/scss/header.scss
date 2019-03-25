@@ -30,6 +30,9 @@ header{
                 width: 50%;
              }
         }
+        .right{
+            text-align: right;
+        }
     }
     nav{
         width: 100%;
@@ -72,15 +75,21 @@ header{
             }
             .about-link{
                 a.nav-link{
-                color: #fef097;
+                color:$yellow;
                 }
                 &:hover{
-                    background-color: #fef097;
+                    background-color: $yellow;
                     a.nav-link{
                     color: #fff;
                     }
                     cursor: pointer;
                 }
+            }
+            .about-link.active{
+                background-color: $yellow;
+                    a{
+                    color: white;
+                    }
             }
             .design-link{
                 a{
@@ -120,33 +129,40 @@ header{
             }
             .price-link{
                 a{
-                color: #e55674;
+                color: $green;
                 }
                 &:hover{
-                    background-color: #e55674;
+                    background-color: $green;
                     a{
                     color: #fff;
                     }
                     cursor: pointer;
                 }
             }
+         
             .price-link.active{
-                background-color: $rose;
+                background-color: $green;
                     a{
                     color: white;
                     }
             }
             .contact-link{
                 a{
-                color: #5e9051;
+                color:$rose;
                 }
                 &:hover{
-                    background-color: #5e9051;
+                    background-color: $rose;
                     a.nav-link{
                     color: #fff;
                     }
                     cursor: pointer;
                 }
+            }
+            .contact-link.active{
+                background-color: $rose;
+                    a{
+                    color: white;
+                    }
             }
         }
         .dropdown-menu{

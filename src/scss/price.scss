@@ -1,8 +1,13 @@
 #price{
+    .wrapper-article{
+        width: 80%;
+    margin: auto;
+    }
   h1{
       color:$color-font-dark!important;
   }
     .left-bar{
+        width: 100%;
         overflow: auto;
         h3{
             font-family: AvenirNextCyr-Demi;
@@ -13,10 +18,10 @@
             line-height: 1.5;
             letter-spacing: 1.2px;
             text-align: justify;
-            color: $rose;
+            color: $green;
         }
         i{
-            color: $rose;
+            color: $green;
             margin-right: 10px;
         }
     }
@@ -36,7 +41,7 @@
         text-align: justify;
         color: #505050;
         border-radius: 42px;
-        background-color: $rose;
+        background-color: $green;
         font-size: 19px;
         padding: 0.5rem 1rem;
     
