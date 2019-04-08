@@ -23,7 +23,7 @@ h1{
 }
 .left-bar{
     width: 20%;
-    border: 3px solid $rose;
+    border: 3px solid $fiolet;
     padding: 1rem;
     h3{
         font-family: AvenirNextCyr-Demi;
@@ -63,6 +63,33 @@ h1{
         text-align: justify;
         color: $color-font-dark;
     }
+    .select-tags{
+        background-color: #c2a7d0;
+        padding: 1rem;
+        margin-top: 2rem;
+        ul{
+
+            display: flex;
+            li{
+                border-radius: 3px;
+                background-color: #efe2f7;
+                font-family: AvenirNextCyr;
+                font-size: 19px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.68;
+                letter-spacing: normal;
+                display: flex;
+                padding: 5px 10px;
+                color: $gray;
+                i{
+                    font-size: 10px;
+                    padding-left: 5px;
+                }
+            }
+        }
+    }
     .galary{
         display: flex;
         flex-wrap: wrap;
@@ -78,6 +105,11 @@ h1{
         background-color: #bc40e773;
     background-blend-mode: luminosity;
     background-position: center;
+    a{
+        width: 100%;
+        text-align: center;
+        display: flex;
+    }
     span{
         text-align: center;
     margin: auto;
