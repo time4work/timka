@@ -1,0 +1,48 @@
+#main{
+    .header-img{
+        img{
+            margin: 0;
+        }
+    }
+    .wrapper{
+        margin: 0;
+        width: 100%;
+    }
+    .doskol{
+        display: flex;
+        margin: 9rem auto;
+        .do-img{
+            width: 50%;
+        }
+        .do-text{
+            width: 50%;
+            p{
+                font-family: AvenirNextCyr;
+                font-size: 25px;
+                  font-weight: normal;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1.25;
+                 letter-spacing: -0.2px;
+            }
+        }
+    }
+    .advantages{
+        width: 100%;
+        margin: 0;
+        background-color: $green;
+        .container{
+            margin: auto;
+            padding: 9rem 0px;
+            .fact{
+                padding: 4rem 2rem;
+                background-color: $rose;
+                color: white;
+                border-radius: 20px;
+                h3{
+                    margin-bottom:3rem;
+                }
+            }
+        }
+    }
+}

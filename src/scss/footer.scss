@@ -2,6 +2,9 @@ footer{
     width: 100%;
     padding-top: 4rem;
     .wrapper{
+        *{
+          z-index: 100;
+        }
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -53,6 +56,9 @@ footer{
           
            }
        }
+       .pod-cat{
+           margin-left: 1rem;
+       }
    }
 }
 .footer-contact-us{
@@ -86,7 +92,7 @@ text-align: left;
 }
 .footer-parallax{
     width: 100%;
-    margin-top: -6rem;
+    margin-top: -20rem;
     .layer-1, .layer-2{
         position: absolute;
         width: 100%;
