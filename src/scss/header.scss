@@ -73,6 +73,12 @@ header{
                     cursor: pointer;
                 }
             }
+            .main-link.active {
+                background-color: $green;
+                    a{
+                    color: white;
+                    }
+            }
             .about-link{
                 a.nav-link{
                 color:$yellow;
