@@ -93,7 +93,7 @@ header{
             }
             .about-link.active{
                 background-color: $yellow;
-                    a{
+                    a.nav-link {
                     color: white;
                     }
             }
@@ -188,6 +188,17 @@ header{
                 letter-spacing: 1.8px;
                 text-align: center;
                 color: #5d5d5d;
+            }
+        }
+        .about-link:hover{
+            cursor: pointer;
+            .dropdown-menu{
+                position: absolute;
+                transform: translate3d(16px, 59px, 0px);
+                top: 0px;
+                left: 0px;
+                will-change: transform;
+                display: block;
             }
         }
     }
