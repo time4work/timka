@@ -12,23 +12,23 @@
 @import'contact';
 @import'schedule';
 @import'main';
+@import'links';
 
 
 
+// @font-face{
 
-@font-face{
-
-    font-family: 'AvenirNextCyr';   
-    src: url('../../src/scss/fonts/AvenirNextCyr-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
-    @font-face{
-        font-family: 'AvenirNextCyr-Demi';   
-        src: url('../../src/scss/fonts/AvenirNextCyr-Demi.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-        }
+//     font-family: 'AvenirNextCyr';   
+//     src: url('../../src/scss/fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+//     }
+//     @font-face{
+//         font-family: 'AvenirNextCyr-Demi';   
+//         src: url('../../src/scss/fonts/AvenirNextCyr-Demi.ttf') format('truetype');
+//         font-weight: normal;
+//         font-style: normal;
+//         }
 body {
     // background: $bg;
     width: 100%;

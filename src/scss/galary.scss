@@ -1,7 +1,7 @@
 .header-img{
     width: 100%;
     // background-color: #5e9051;
-    background: url(../../src/img/header-img.jpg) ;
+    // background: url(../../src/img/header-img.jpg) ;
     // height: 300px;
     img{
         margin-top: 9rem;
@@ -22,8 +22,11 @@ h1{
     color: #1b1b1b;
     margin-bottom:2rem;
 }
-.left-bar{
+#gallary .left-bar{
     width: 18%;
+}
+.left-bar{
+    // width: 18%;
     .tags{
         width: 100%;
         border: 3px solid $fiolet;
@@ -136,16 +139,16 @@ h1{
     }
     }
         }
-        .al-1{
-            background: url(../../src/img/galary.jpeg) center no-repeat;        
-        }
-        .al-2{
-            background: url(../../src/img/galary2.jpg) center no-repeat;        
-        }
-        .al-3{
-            background: url(../../src/img/galary3.jpg) center no-repeat;        
-        }
-    }
+    //     .al-1{
+    //         background: url(../../src/img/galary.jpeg) center no-repeat;        
+    //     }
+    //     .al-2{
+    //         background: url(../../src/img/galary2.jpg) center no-repeat;        
+    //     }
+    //     .al-3{
+    //         background: url(../../src/img/galary3.jpg) center no-repeat;        
+    //     }
+    // }
 }
 input[type="checkbox"]:checked + label:before, 
 input[type="checkbox"]:not(:checked) + label:before{

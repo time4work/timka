@@ -1,5 +1,7 @@
 #main{
     .header-img{
+        height: 722px;
+        overflow: hidden;
         img{
             margin: 0;
         }
@@ -13,6 +15,10 @@
         margin: 9rem auto;
         .do-img{
             width: 50%;
+            text-align: center;
+            img{
+                width: 210px;
+            }
         }
         .do-text{
             width: 50%;
@@ -30,10 +36,9 @@
     .advantages{
         width: 100%;
         margin: 0;
-        background-color: $green;
         .container{
             margin: auto;
-            padding: 9rem 0px;
+            // padding: 9rem 0px;
             .fact{
                 padding: 4rem 2rem;
                 background-color: $rose;
@@ -44,5 +49,59 @@
                 }
             }
         }
+    }
+}
+.wrapper-contact-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .timka-gnom{
+        width: 270px;
+        position: relative;
+        left: 10%;
+        bottom: 0;
+        img{
+            width: 100%;
+        }
+    }
+    .contact-form{
+        width: 70%;
+    border: 3px solid $fiolet;
+    form{
+        width: 100%;
+        text-align: center;
+        padding: 2rem;
+        div{
+            width: 43%;
+            margin: auto;
+            input, textarea{
+                background: none;
+                border: none;
+                border-bottom: solid 2px $fiolet;
+                color: $fiolet;
+                font-size: 1.000em;
+                font-weight: 400;
+                letter-spacing: 1px;
+                margin: 0em 0 0.875em 0;
+                padding: 0 0 0.875em 0;
+                text-transform: uppercase;
+                width: 100%;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -ms-box-sizing: border-box;
+                -o-box-sizing: border-box;
+                box-sizing: border-box;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -ms-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+            }
+        }
+        input[type='text']:focus, [type='email']:focus, textarea:focus {
+            outline: none;
+            padding: 0 0 0.875em 0;
+        }
+    }
     }
 }

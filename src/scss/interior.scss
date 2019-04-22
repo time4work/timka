@@ -25,22 +25,31 @@
             justify-content: space-around;
         .img-back{
             position: relative;
+           
+        }
+        .img-back.top{
+            margin-bottom: -6rem;
+
+        }
+        .img-back.down{
+            margin-top: -6rem;
+
         }
         .eat-block{
-            width: 20%;
-            text-align: center;
+            // width: 20%;
+            text-align: left;
             img{
                 width: 75%;
             }
             p{
-                font-size: 30px;
+                font-size: 27px;
                 font-weight: bold;
                 line-height: normal;
                 letter-spacing: normal;
                 /* text-align: left; */
                 color: #f8f9f9;
                 text-align: left;
-                margin: 3rem 0px;
+                margin: 1rem 0px;
             }
         }
     }
