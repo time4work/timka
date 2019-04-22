@@ -1,308 +1,310 @@
 .home-jumbotron {
-    position: relative;
-    width: 100%;
-    margin: 0 0 4em;
+  position: relative;
+  width: 100%;
+  margin: 0 0 4em;
 }
 
 .home-jumbotron-photos {
-    height: 250px;
-    background: url(../../src/img/jumbotron.jpg) center center no-repeat;
-    position: absolute;
-    width: 100%;
-    z-index: 1;
+  height: 250px;
+  background: url(../../src/img/jumbotron.jpg) center center no-repeat;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
 }
 
 .home-jumbotron-photos:before {
-    content: "";
-    display: none;
-    height: 10px;
-    position: absolute;
-    top: 240px;
-    z-index: 3;
-    width: 100%;
-    background-image: linear-gradient(to right, #64b264, #feef97, #6a97fe, #e172ed, #ea5353);
+  content: "";
+  display: none;
+  height: 10px;
+  position: absolute;
+  top: 240px;
+  z-index: 3;
+  width: 100%;
+  background-image: linear-gradient(to right, #64b264, #feef97, #6a97fe, #e172ed, #ea5353);
 }
 
 .home-jumbotron-photos:after {
-    content: "";
-    display: block;
-    height: 250px;
-    position: absolute;
-    z-index: 2;
-    width: 100%;
-    background-image: linear-gradient(to right, #64b264, #feef97, #6a97fe, #e172ed, #ea5353);
-    opacity: 0.8;
+  content: "";
+  display: block;
+  height: 250px;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  background-image: linear-gradient(to right, #64b264, #feef97, #6a97fe, #e172ed, #ea5353);
+  opacity: 0.8;
 }
 
 .home-jumbotron-container {
-    background: url(../../src/img/brand-hero.png) left bottom no-repeat;
-    color: #fff;
-    background-size: auto 280px;
-    height: 300px;
-    position: relative;
-    z-index: 4;
-    width: 786px;
-    margin: 0 auto;
-    padding: 72px 0 0 176px;
+  background: url(../../src/img/brand-hero.png) left bottom no-repeat;
+  color: #fff;
+  background-size: auto 280px;
+  height: 300px;
+  position: relative;
+  z-index: 4;
+  width: 786px;
+  margin: 0 auto;
+  padding: 72px 0 0 176px;
 }
 
 .home-jumbotron h1 {
-    color: #fff;
-    font-family: AvenirNextCyr-Demi;
-    font-size: 43px;
-    font-weight: 600;
-    text-align: left;
-    margin: 0;
+  color: #fff;
+  font-family: AvenirNextCyr-Demi;
+  font-size: 43px;
+  font-weight: 600;
+  text-align: left;
+  margin: 0;
 }
 
 .home-jumbotron h2 {
-    color: #fff;
-    font-size: 24px;
-    margin: 1em 0 0;
+  color: #fff;
+  font-size: 24px;
+  margin: 1em 0 0;
 }
 
 .home-section {
-    display: flex;
-    align-items: center;
-    margin: 0 0 8em;
+  display: flex;
+  align-items: center;
+  margin: 0 0 8em;
 }
 
 .home-section-about-news {
-    display: block;
-} 
+  display: block;
+}
 
 .home-about {
-    width: 50%;
+  width: 50%;
 }
 
 .home-heading {
-    font-family: AvenirNextCyr-Demi;
-    font-size: 29px;
-    color: $yellow;
-    margin: 0 0 1em;
+  font-family: AvenirNextCyr-Demi;
+  font-size: 29px;
+  color: $yellow;
+  margin: 0 0 1em;
 }
 
 .home-about-list-item {
-    font-size: 24px;
-    font-family: AvenirNextCyr;
-    line-height: 1.5;
-    color: #777;
-    display: flex;
-    margin: 0 0 1em;
+  font-size: 24px;
+  font-family: AvenirNextCyr;
+  line-height: 1.5;
+  color: #777;
+  display: flex;
+  margin: 0 0 1em;
 }
 
 .home-about-list-item i {
-    flex-shrink: 0;
-    color: $yellow;
-    line-height: 1.5;
+  flex-shrink: 0;
+  color: $yellow;
+  line-height: 1.5;
 }
 
 .home-about-list-item span {
-    padding-left: 16px;
+  padding-left: 16px;
 }
 
 .home-about .home-cta {
-    background: $yellow;
+  background: $yellow;
 }
 
 .home-about-news-container {
-    display: flex;
+  display: flex;
 }
 
 .home-about {
-    width: 50%;
-    box-sizing: border-box;
-    padding-right: 48px;
+  width: 50%;
+  box-sizing: border-box;
+  padding-right: 48px;
 }
 
 .home-news {
-    background: #ededed;
-    border-radius: 8px;
-    width: 50%;
-    padding: 24px;
+  background: #ededed;
+  border-radius: 8px;
+  width: 50%;
+  padding: 24px;
 }
 
-.home-news-title, .home-news-title:hover, .home-news-title:focus {
-    color: $blu;
-    font-size: 29px;
-    font-family: AvenirNextCyr-Demi;
-    text-decoration: none;
+.home-news-title,
+.home-news-title:hover,
+.home-news-title:focus {
+  color: $blu;
+  font-size: 29px;
+  font-family: AvenirNextCyr-Demi;
+  text-decoration: none;
 }
 
 .home-news-date {
-    color: #6b6b6b;
-    margin: 0.5em 0;
+  color: #6b6b6b;
+  margin: 0.5em 0;
 }
 
 .home-news-description {
-    font-size: 18px;
-    line-height: 1.5;
-    color: #333;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
 }
 
 .home-section-benefits {
-    border: 4px solid #EFF4EE;
-    padding: 24px;
-    border-radius: 8px;
-    display: block;
-    position: relative;
+  border: 4px solid #eff4ee;
+  padding: 24px;
+  border-radius: 8px;
+  display: block;
+  position: relative;
 }
 
 .home-section-benefits img {
-    height: 200px;
-    position: absolute;
-    left: -12px;
-    bottom: -24px;
+  height: 200px;
+  position: absolute;
+  left: -12px;
+  bottom: -24px;
 }
 
 .home-section-benefits h2 {
-    font-family: AvenirNextCyr-Demi;
-    font-size: 39px;
-    color: $green;
-    text-align: center;
-    padding: 1em 0;
+  font-family: AvenirNextCyr-Demi;
+  font-size: 39px;
+  color: $green;
+  text-align: center;
+  padding: 1em 0;
 }
 
 .home-section-benefits-lists {
-    display: flex;
-    width: 100%;
-    flex-grow: 1;
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
 }
 
 .home-section-benefits-list {
-    box-sizing: border-box;
-    padding: 24px;
-    width: 50%;
-    margin: 0 0 -1em;
+  box-sizing: border-box;
+  padding: 24px;
+  width: 50%;
+  margin: 0 0 -1em;
 }
 
 .home-section-benefits-list-item {
-    display: flex;
-    line-height: 1.5;
-    font-size: 18px;
-    margin: 0 0 1em;
+  display: flex;
+  line-height: 1.5;
+  font-size: 18px;
+  margin: 0 0 1em;
 }
 
 .home-section-benefits-list-item i {
-    color: $green;
-    line-height: 1.5;
+  color: $green;
+  line-height: 1.5;
 }
 
 .home-section-benefits-list-item span {
-    padding-left: 8px;
+  padding-left: 8px;
 }
 
 .home-section-benefits-cta {
-    text-align: center;
-    padding: 2em 0;
+  text-align: center;
+  padding: 2em 0;
 }
 
 .home-section-benefits .home-cta {
-    background: $green;
+  background: $green;
 }
 
 .home-section-interior h2 {
-    color: $blu;
+  color: $blu;
 }
 
 .home-section-interior .home-cta {
-    background-color: $blu;
-    border: $blu;
+  background-color: $blu;
+  border: $blu;
 }
 
 .home-section-interior .home-section-element-text {
-    padding-left: 48px;
+  padding-left: 48px;
 }
 
 .home-section-medical-maintenance h2 {
-    color: $rose;
+  color: $rose;
 }
 
 .home-section-medical-maintenance .home-cta {
-    background-color: $rose;
-    border-color: $rose;
+  background-color: $rose;
+  border-color: $rose;
 }
-.home-section-medical-maintenance .home-cta:hover{
-    color:$rose;
-    border-color:$rose;
-
+.home-section-medical-maintenance .home-cta:hover {
+  color: $rose;
+  border-color: $rose;
 }
 .home-section-medical-maintenance .home-section-element-text {
-    padding-right: 48px;
+  padding-right: 48px;
 }
 
 .home-section-element {
-    box-sizing: border-box;
-    width: 50%;
+  box-sizing: border-box;
+  width: 50%;
 }
 
 .home-section-element-slider {
-    position: relative;
+  position: relative;
 }
 
 .home-section-element-slider-brand-hero {
-    height: 200px;
-    position: absolute;
-    bottom: 8px;
-    right: -16px;
-    z-index: 3;
+  height: 200px;
+  position: absolute;
+  bottom: 8px;
+  right: -16px;
+  z-index: 3;
 }
 
 .home-section-element-slider .carousel img {
-    border-radius: 8px;
+  border-radius: 8px;
 }
 
 .home-section-element-text {
-    font-size: 22px;
-    font-family: AvenirNextCyr;
-    line-height: 1.5;
-    padding-bottom: 45px;
-    color: #777;
-    align-self: flex-start;
+  font-size: 22px;
+  font-family: AvenirNextCyr;
+  line-height: 1.5;
+  padding-bottom: 45px;
+  color: #777;
+  align-self: flex-start;
 }
-.home-section-interior .home-cta:hover{
-    // background: $blu;
-    color: $blu;
-    border-color: $blu;
+.home-section-interior .home-cta:hover {
+  // background: $blu;
+  color: $blu;
+  border-color: $blu;
 }
 .home-section-element-text h2 {
-    font-family: AvenirNextCyr-Demi;
-    font-size: 39px;
+  font-family: AvenirNextCyr-Demi;
+  font-size: 39px;
 }
 
-.home-cta, .home-cta:focus {
-    font-family: AvenirNextCyr;
-    font-size: 24px;
-    color: #fff;
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 15px;
-    border:1px solid $green;
+.home-cta,
+.home-cta:focus {
+  font-family: AvenirNextCyr;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 15px;
+  border: 1px solid $green;
 }
-.home-cta:hover{
-  background:#fff;
-  border:1px solid $green;
+.home-cta:hover {
+  background: #fff;
+  border: 1px solid $green;
   cursor: pointer;
   text-decoration: none;
-  color:$green;
+  color: $green;
 }
-.carousel-indicators li{
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    background-color: $blu;
-    align-self: center;
-}
-
-.home-section-medical-maintenance .carousel-indicators li{
-    background-color: $rose;
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: $blu;
+  align-self: center;
 }
 
-.carousel-indicators{
-    position: static;
-    margin-top: 1rem;
+.home-section-medical-maintenance .carousel-indicators li {
+  background-color: $rose;
 }
-.carousel-indicators .active{
-    width: 25px;
-    height: 25px;
+
+.carousel-indicators {
+  position: static;
+  margin-top: 1rem;
+}
+.carousel-indicators .active {
+  width: 25px;
+  height: 25px;
 }
