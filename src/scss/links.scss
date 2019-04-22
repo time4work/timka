@@ -1,29 +1,27 @@
-.header-img{
-    background: url(../../src/img/header-img.jpg) ;
-
+.header-img {
+  background: url(../../src/img/header-img.jpg);
 }
-.galary{
-    .al-1{
-        background: url(../../src/img/galary.jpeg) center no-repeat;        
-    }
-    .al-2{
-        background: url(../../src/img/galary2.jpg) center no-repeat;        
-    }
-    .al-3{
-        background: url(../../src/img/galary3.jpg) center no-repeat;        
-    }
+.galary {
+  .al-1 {
+    background: url(../../src/img/galary.jpeg) center no-repeat;
+  }
+  .al-2 {
+    background: url(../../src/img/galary2.jpg) center no-repeat;
+  }
+  .al-3 {
+    background: url(../../src/img/galary3.jpg) center no-repeat;
+  }
 }
 
-@font-face{
-
-    font-family: 'AvenirNextCyr';   
-    src: url('../../src/scss/fonts/AvenirNextCyr-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
-    @font-face{
-        font-family: 'AvenirNextCyr-Demi';   
-        src: url('../../src/scss/fonts/AvenirNextCyr-Demi.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-        }
+@font-face {
+  font-family: "AvenirNextCyr";
+  src: url("../../src/scss/fonts/AvenirNextCyr-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AvenirNextCyr-Demi";
+  src: url("../../src/scss/fonts/AvenirNextCyr-Demi.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
