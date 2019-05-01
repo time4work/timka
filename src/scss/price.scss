@@ -26,6 +26,7 @@
     }
   }
   .button-price {
+    margin-bottom: 4rem;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -46,4 +47,28 @@
     padding: 0.5rem 1rem;
     border: 0;
   }
+}
+.make-an-application{
+  width: 100%;
+  text-align: center;
+  .but{
+    width: 20%;
+  }
+}
+.modal-contact{
+  border: 3px solid #ad4ddf;
+  .wrapper-contact-form{
+    border: none;
+  }
+  .modal-header{
+    border:none;
+  }
+    .contact-form{
+      width: 100%!important;
+      border: none!important;
+      div{
+        width: 85%!important;
+      }
+    }
+  
 }
