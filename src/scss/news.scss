@@ -30,7 +30,7 @@
         margin: 1rem 0;
         h3{
             font-family: AvenirNextCyr-Demi;
-            font-size: 40px;
+            font-size: 37px;
             font-weight: normal;
             line-height: 0.73;
             letter-spacing: 1.4px;
@@ -38,7 +38,7 @@
         }
         p{
             font-family: AvenirNextCyr;
-            font-size: 22px;
+            font-size: 20px;
             font-weight: 300;
             font-style: normal;
             font-stretch: normal;
@@ -51,7 +51,7 @@
         .previev-footer{
             .data{
             font-family: AvenirNextCyr;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 200;
     font-style: normal;
     font-stretch: normal;
@@ -64,7 +64,7 @@
             }
             .tags{
                 font-family: AvenirNextCyr;
-                font-size: 22px;
+                font-size: 20px;
                 font-weight: 300;
                 font-style: normal;
                 font-stretch: normal;
@@ -92,6 +92,7 @@
         margin: 2rem auto;
     }
     .pagination{
+        justify-content: center;
         .page-link{
             border-radius: 50%;
             padding: 0.3rem .6rem;

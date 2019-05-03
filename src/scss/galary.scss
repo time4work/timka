@@ -22,8 +22,11 @@ h1{
     color: #1b1b1b;
     margin-bottom:2rem;
 }
-.left-bar{
+#gallary .left-bar{
     width: 18%;
+}
+.left-bar{
+    // width: 18%;
     .tags{
         width: 100%;
         border: 3px solid $fiolet;

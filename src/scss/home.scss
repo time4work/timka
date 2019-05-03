@@ -207,6 +207,7 @@
 
 .home-section-interior .home-cta {
     background-color: $blu;
+    border: $blu;
 }
 
 .home-section-interior .home-section-element-text {
@@ -219,8 +220,13 @@
 
 .home-section-medical-maintenance .home-cta {
     background-color: $rose;
+    border-color: $rose;
 }
+.home-section-medical-maintenance .home-cta:hover{
+    color:$rose;
+    border-color:$rose;
 
+}
 .home-section-medical-maintenance .home-section-element-text {
     padding-right: 48px;
 }
@@ -247,27 +253,39 @@
 }
 
 .home-section-element-text {
-    font-size: 24px;
+    font-size: 22px;
     font-family: AvenirNextCyr;
     line-height: 1.5;
     padding-bottom: 45px;
     color: #777;
+    align-self: flex-start;
 }
-
+.home-section-interior .home-cta:hover{
+    // background: $blu;
+    color: $blu;
+    border-color: $blu;
+}
 .home-section-element-text h2 {
     font-family: AvenirNextCyr-Demi;
     font-size: 39px;
 }
 
-.home-cta, .home-cta:hover, .home-cta:focus {
+.home-cta, .home-cta:focus {
     font-family: AvenirNextCyr;
     font-size: 24px;
     color: #fff;
     text-decoration: none;
     display: inline-block;
-    padding: 8px;
+    padding: 8px 15px;
+    border:1px solid $green;
 }
-
+.home-cta:hover{
+  background:#fff;
+  border:1px solid $green;
+  cursor: pointer;
+  text-decoration: none;
+  color:$green;
+}
 .carousel-indicators li{
     border-radius: 50%;
     width: 20px;
