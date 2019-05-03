@@ -105,15 +105,40 @@
                    <li><a><i class="fa fa-caret-right"></i>Развитие</a></li>
                </ul>
            </div>
-           <a href="">
-           <div class="category certificate">
+           <a href="#" data-toggle="modal" data-target="#modal" >
+           <div class="category certificate" >
             
                 <p>Документ</p>
                 <i class="far fa-file-pdf"></i>
             
             </div>
         </a>
-
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-notify modal-info" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <p class="heading lead">Modal Info</p>
+      
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="white-text">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="text-center">
+                <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis
+                  ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione fuga, enim,
+                  ab officiis totam.</p>
+              </div>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">No, thanks</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
            <div class="last-news">
                <p>Последние новости</p>
                <div class="preview-news">

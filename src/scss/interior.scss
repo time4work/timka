@@ -19,12 +19,14 @@
   }
   .eat {
     width: 100%;
+    margin: 0;
     background-color: $blu;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     .img-back {
       position: relative;
+      width: 100%;
     }
     .img-back.top {
       margin-bottom: -6rem;

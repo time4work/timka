@@ -13,7 +13,7 @@
 @import "schedule";
 @import "main";
 @import "links";
-
+@import "media";
 // @font-face{
 
 //     font-family: 'AvenirNextCyr';
@@ -50,7 +50,9 @@ body {
     width: 95%;
     margin: 0 auto;
   }
-
+a:hover{
+  text-decoration: none;
+}
   main {
     display: flex;
     flex-wrap: wrap;
