@@ -1,205 +1,205 @@
-header{
+header {
+  width: 100%;
+  .top-menu {
+    padding: 1rem 0;
+    .logo {
+      img {
+        width: 227px;
+      }
+    }
+    display: flex;
+    justify-content: space-between;
+    .contact-menu {
+      color: #525252;
+      font-family: "AvenirNextCyr";
+      font-size: 15px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 2.21;
+      letter-spacing: 1.2px;
+      display: flex;
+      flex-wrap: wrap;
+      text-align: left;
+
+      i {
+        color: #e55ca6;
+        padding: 0 10px;
+      }
+      .contact {
+        width: 50%;
+      }
+    }
+    .right {
+      text-align: right;
+    }
+  }
+  nav {
     width: 100%;
-    .top-menu{
-        padding: 1rem 0;
-        .logo{
-            img{
-                width: 227px;
-            }
+    box-shadow: 0 0 17px rgba(0, 0, 0, 0.27);
+    z-index: 100;
+    ul {
+      // width: 80%;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: row;
+      li {
+        list-style: none;
+        padding: 0.4rem 1rem;
+        a {
+          font-family: AvenirNextCyr-Demi;
+          font-size: 18px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 2.08;
+          letter-spacing: normal;
         }
-        display: flex;
-        justify-content: space-between;
-        .contact-menu{
-            color: #525252;
-            font-family: 'AvenirNextCyr'; 
-            font-size: 15px;
-            font-weight: 300;
-             font-style: normal;
-             font-stretch: normal;
-             line-height: 2.21;
-             letter-spacing: 1.2px;
-             display: flex;
-             flex-wrap: wrap;
-             text-align: left;
-          
-             i{
-               color: #e55ca6;
-               padding: 0 10px;
-             }
-             .contact{
-                width: 50%;
-             }
+        .dropdown-toggle::after {
+          display: none;
         }
-        .right{
-            text-align: right;
+      }
+      .main-link {
+        a {
+          color: #659956;
         }
+        &:hover {
+          background-color: #659956;
+          a {
+            color: #fff;
+          }
+          cursor: pointer;
+        }
+      }
+      .main-link.active {
+        background-color: $green;
+        a {
+          color: white;
+        }
+      }
+      .about-link {
+        a.nav-link {
+          color: $yellow;
+        }
+        &:hover {
+          background-color: $yellow;
+          a.nav-link {
+            color: #fff;
+          }
+          cursor: pointer;
+        }
+      }
+      .about-link.active {
+        background-color: $yellow;
+        a.nav-link {
+          color: white;
+        }
+      }
+      .design-link {
+        a {
+          color: $blu;
+        }
+        &:hover {
+          background-color: $blu;
+          a {
+            color: #fff;
+          }
+          cursor: pointer;
+        }
+      }
+      .design-link.active {
+        background-color: $blu;
+        a {
+          color: white;
+        }
+      }
+      .galery-link {
+        a {
+          color: #ad4ddf;
+        }
+        &:hover {
+          background-color: #ad4ddf;
+          a {
+            color: #fff;
+          }
+          cursor: pointer;
+        }
+      }
+      .galery-link.active {
+        background-color: #ad4ddf;
+        a {
+          color: #fff;
+        }
+      }
+      .price-link {
+        a {
+          color: $green;
+        }
+        &:hover {
+          background-color: $green;
+          a {
+            color: #fff;
+          }
+          cursor: pointer;
+        }
+      }
+
+      .price-link.active {
+        background-color: $green;
+        a {
+          color: white;
+        }
+      }
+      .contact-link {
+        a {
+          color: $rose;
+        }
+        &:hover {
+          background-color: $rose;
+          a.nav-link {
+            color: #fff;
+          }
+          cursor: pointer;
+        }
+      }
+      .contact-link.active {
+        background-color: $rose;
+        a {
+          color: white;
+        }
+      }
     }
-    nav{
-        width: 100%;
-        box-shadow: 0 0 17px rgba(0, 0, 0, 0.27);
-        z-index: 100;
-        ul{
-            // width: 80%;
-            margin: 0 auto;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            flex-direction: row;
-            li{
-                list-style: none;
-                padding: 0.4rem 1rem;
-                 a{
-                    font-family: AvenirNextCyr-Demi;
-                    font-size: 18px;
-                    font-weight: normal;
-                    font-style: normal;
-                    font-stretch: normal;
-                    line-height: 2.08;
-                    letter-spacing: normal;
-                 }
-                 .dropdown-toggle::after{
-                     display: none;
-                 }
-            }
-            .main-link{
-                a{
-                color: #659956;
-                }
-                &:hover{
-                    background-color: #659956;
-                    a{
-                    color: #fff;
-                    }
-                    cursor: pointer;
-                }
-            }
-            .main-link.active {
-                background-color: $green;
-                    a{
-                    color: white;
-                    }
-            }
-            .about-link{
-                a.nav-link{
-                color:$yellow;
-                }
-                &:hover{
-                    background-color: $yellow;
-                    a.nav-link{
-                    color: #fff;
-                    }
-                    cursor: pointer;
-                }
-            }
-            .about-link.active{
-                background-color: $yellow;
-                    a.nav-link {
-                    color: white;
-                    }
-            }
-            .design-link{
-                a{
-                color: $blu;
-                }
-                &:hover{
-                    background-color: $blu;
-                    a{
-                    color: #fff;
-                    }
-                    cursor: pointer;
-                }
-            }
-            .design-link.active{
-                background-color: $blu;
-                    a{
-                    color: white;
-                    }
-            }
-            .galery-link{
-                a{
-                color: #ad4ddf;
-                }
-                &:hover{
-                    background-color: #ad4ddf;
-                    a{
-                    color: #fff;
-                    }
-                    cursor: pointer;
-                }
-            }
-            .galery-link.active{
-                background-color: #ad4ddf;
-                    a{
-                    color: #fff;
-                    }
-            }
-            .price-link{
-                a{
-                color: $green;
-                }
-                &:hover{
-                    background-color: $green;
-                    a{
-                    color: #fff;
-                    }
-                    cursor: pointer;
-                }
-            }
-         
-            .price-link.active{
-                background-color: $green;
-                    a{
-                    color: white;
-                    }
-            }
-            .contact-link{
-                a{
-                color:$rose;
-                }
-                &:hover{
-                    background-color: $rose;
-                    a.nav-link{
-                    color: #fff;
-                    }
-                    cursor: pointer;
-                }
-            }
-            .contact-link.active{
-                background-color: $rose;
-                    a{
-                    color: white;
-                    }
-            }
-        }
-        .dropdown-menu{
-            z-index: 2;
-            top: 4px;
-            border-radius: 0;
-            left: -51px!important;
-            border: 0;
-            a{
-                font-family: AvenirNextCyr;
-                padding: .25rem 2.5rem;
-                font-size: 18px;
-                font-weight: 100;
-                font-style: normal;
-                font-stretch: normal;
-                line-height: 2.67;
-                letter-spacing: 1.8px;
-                text-align: center;
-                color: #5d5d5d;
-            }
-        }
-        .about-link:hover{
-            cursor: pointer;
-            .dropdown-menu{
-                position: absolute;
-                transform: translate3d(16px, 59px, 0px);
-                top: 0px;
-                left: 0px;
-                will-change: transform;
-                display: block;
-            }
-        }
+    .dropdown-menu {
+      z-index: 2;
+      top: 4px;
+      border-radius: 0;
+      left: -51px !important;
+      border: 0;
+      a {
+        font-family: AvenirNextCyr;
+        padding: 0.25rem 2.5rem;
+        font-size: 18px;
+        font-weight: 100;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.67;
+        letter-spacing: 1.8px;
+        text-align: center;
+        color: #5d5d5d;
+      }
     }
+    .about-link:hover {
+      cursor: pointer;
+      .dropdown-menu {
+        position: absolute;
+        transform: translate3d(16px, 59px, 0px);
+        top: 0px;
+        left: 0px;
+        will-change: transform;
+        display: block;
+      }
+    }
+  }
 }
