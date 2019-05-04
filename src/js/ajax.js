@@ -3,7 +3,7 @@ const categorySelect = function() {
     page = page ? page[0] : 1;
 
     const val = $(this).val();
-    const link = `http://sad.test/wp-json/ajax/cat=${val}/page=${page}`;
+    const link = `${window.location.origin}/wp-json/ajax/cat=${val}/page=${page}`;
 
     $.get(link, function(data) {
         const container = $('#article-container');
