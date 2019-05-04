@@ -1,49 +1,74 @@
-#price{
-    .wrapper-article{
-        // width: 80%;
+#price {
+  .wrapper-article {
+    // width: 80%;
     margin: auto;
-    }
-  h1{
-      color:$color-font-dark!important;
   }
-    .left-bar{
-        width: 100%;
-        overflow: auto;
-        h3{
-            font-family: AvenirNextCyr-Demi;
-            font-size: 30px;
-            font-weight: normal;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 1.5;
-            letter-spacing: 1.2px;
-            text-align: justify;
-            color: $green;
-        }
-        i{
-            color: $green;
-            margin-right: 10px;
-        }
+  h1 {
+    color: $color-font-dark !important;
+  }
+  .left-bar {
+    width: 100%;
+    overflow: auto;
+    h3 {
+      font-family: AvenirNextCyr-Demi;
+      font-size: 30px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: 1.2px;
+      text-align: justify;
+      color: $green;
     }
-    .button-price{
-        width: 100%;  
-        display: flex;
-        justify-content: flex-end;
+    i {
+      color: $green;
+      margin-right: 10px;
     }
-    button{ 
-        font-family: AvenirNextCyr-Demi;
-        font-size: 25px;
-        font-weight: normal;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: 2;
-        letter-spacing: 0.9px;
-        text-align: justify;
-        color: #fff;
-        border-radius: 42px;
-        background-color: $green;
-        font-size: 19px;
-        padding: 0.5rem 1rem;
-        border: 0;
+  }
+  .button-price {
+    margin-bottom: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  button {
+    font-family: AvenirNextCyr-Demi;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 0.9px;
+    text-align: justify;
+    color: #fff;
+    border-radius: 42px;
+    background-color: $green;
+    font-size: 19px;
+    padding: 0.5rem 1rem;
+    border: 0;
+  }
+}
+.make-an-application{
+  width: 100%;
+  text-align: center;
+  .but{
+    width: 20%;
+  }
+}
+.modal-contact{
+  border: 3px solid #ad4ddf;
+  .wrapper-contact-form{
+    border: none;
+  }
+  .modal-header{
+    border:none;
+  }
+    .contact-form{
+      width: 100%!important;
+      border: none!important;
+      div{
+        width: 85%!important;
+      }
     }
+  
 }

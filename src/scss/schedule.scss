@@ -1,63 +1,63 @@
-#schedule{
-    h1{
-        text-align: left;
-        margin: 1rem 0px;
-        font-size: 45px;
+#schedule {
+  h1 {
+    text-align: left;
+    margin: 1rem 0px;
+    font-size: 45px;
+  }
+  .contact-text {
+    margin: 2rem 0px;
+  }
+  .table-bordered td,
+  .table-bordered th {
+    border: 3px solid #ffffff;
+  }
+  table {
+    color: #fff;
+    td {
+      font-family: AvenirNextCyr;
+      font-size: 20.5px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      text-align: center;
+      letter-spacing: normal;
+      padding: 2rem 0px;
     }
-    .contact-text{
-        margin: 2rem 0px;
+  }
+  th.none {
+    background-color: #f8f9f9;
+    border-color: #f8f9f9;
+    color: $blu;
+    padding: 2rem 0px;
+  }
+  thead {
+    font-family: AvenirNextCyr;
+    font-size: 24.5px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    text-align: center;
+    letter-spacing: normal;
+    th {
+      background-color: $gray;
+      color: #fff;
     }
-    .table-bordered td, .table-bordered th{
-        border: 3px solid #ffffff;
-    }
-    table{
-
-        color:#fff;
-        td{
-            font-family: AvenirNextCyr;
-            font-size: 20.5px;
-            font-weight: bold;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: normal;
-            text-align: center;
-            letter-spacing: normal;
-            padding: 2rem 0px;
-        }
-    }
-    th.none{
-        background-color: #f8f9f9;
-        border-color: #f8f9f9;
-        color: $blu;
-        padding: 2rem 0px;
-    }
-    thead{
-        font-family: AvenirNextCyr;
-        font-size: 24.5px;
-        font-weight: bold;
-        font-style: normal;
-        font-stretch: normal;
-        line-height: normal;
-        text-align: center;
-        letter-spacing: normal;
-        th{
-            background-color: $gray;
-            color: #fff;
-        }
-    }
-    .green{
-        background-color: $green;
-    }
-    .yellow{
-        background-color: $yellow;
-    }
-    .blue{
-        background-color: $blu;
-    }
-    .fiolet{
-        background-color: $fiolet;
-    }
-    .rose{
-        background-color: $rose;
-    }
+  }
+  .green {
+    background-color: $green;
+  }
+  .yellow {
+    background-color: $yellow;
+  }
+  .blue {
+    background-color: $blu;
+  }
+  .fiolet {
+    background-color: $fiolet;
+  }
+  .rose {
+    background-color: $rose;
+  }
 }
