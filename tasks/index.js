@@ -19,7 +19,7 @@ const rootDIR = global.__basedir;
 const entryDIR = 'src';
 const outputDIR = 'dist';
 
-const javascriptFILES = ['script.js'];
+const javascriptFILES = ['script.js', 'main-page-script.js'];
 const javascriptDIR = 'js';
 
 const sassFILE = 'styles.scss';
