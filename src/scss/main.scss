@@ -5,21 +5,21 @@
     img {
       margin: 0;
     }
-    .carousel-inner{
-      // height: 722px;
-      // max-height: 600px;
-    }
+    
     .fade-carousel {
       position: relative;
       // max-height: 600px;
   }
-  .fade-carousel .carousel-inner .item {
-      // height: 100vh;
-      // max-height: 600px;
-  }
+
   .carousel-indicators{
     position: absolute!important;
     margin-top: 0!important;
+  }
+  .carousel-control-prev, .carousel-control-next{
+    z-index: 20;
+  }
+  .carousel-control-prev:hover, .carousel-control-next:hover{
+    background-color: #0e0e0e4f;
   }
   .fade-carousel .carousel-indicators > li {
       margin: 0 2px;
@@ -90,9 +90,6 @@
             transition: 2s all ease-in-out .1s;    
 }
 
-/********************************/
-/*            Overlay           */
-/********************************/
 .overlay {
     position: absolute;
     width: 100%;
@@ -102,9 +99,6 @@
     opacity: .7;
 }
 
-/********************************/
-/*          Custom Buttons      */
-/********************************/
 .btn.btn-lg {padding: 10px 40px;}
 .btn.btn-hero,
 .btn.btn-hero:hover,
@@ -116,9 +110,7 @@
     margin: 20px auto;
 }
 
-/********************************/
-/*       Slides backgrounds     */
-/********************************/
+
 .fade-carousel .slides .slide-1, 
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3 {
@@ -127,15 +119,15 @@
   background-position: center center;
   background-repeat: no-repeat;
 }
-.fade-carousel .slides .slide-1 {
-  background-image: url("../../src/img/galary3.jpg"); 
-}
-.fade-carousel .slides .slide-2 {
-  background-image: url("../../src/img/galary2.jpg");
-}
-.fade-carousel .slides .slide-3 {
-  background-image: url("../../src/img/galary3.jpg");
-}
+// .fade-carousel .slides .slide-1 {
+//   background-image: url("../../src/img/galary3.jpg"); 
+// }
+// .fade-carousel .slides .slide-2 {
+//   background-image: url("../../src/img/galary2.jpg");
+// }
+// .fade-carousel .slides .slide-3 {
+//   background-image: url("../../src/img/galary3.jpg");
+// }
 
 /********************************/
 /*          Media Queries       */

@@ -47,7 +47,7 @@
       
    </header>
    <main id="contact">
-       <div class="header-img">
+       <div class="header-img" style=" background: url(../../src/img/header-img.jpg);">
            <!-- <img src="../../src/img/header-img.png" alt=""> -->
            <img src="../../src/img/clouds1.png" alt="">
        </div>
@@ -88,34 +88,36 @@
        </div>
        </div>
        <div class="map"></div>
-       <div class="wrapper">
-       <div class="contact-form">
-           <p>Напиши нам</p>
-            <form>
-                    <div class="form-row">
-                            <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" id="inputname" placeholder="Имя ребенка *">
-                                  </div>
-                      <div class="form-group col-md-6">
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Email *">
-                      </div>
-
+       <div class="container">
+            <div class="wrapper-contact-form">
+                    <div class="timka-gnom"><img src="../../src/img/brand-hero.png" alt=""></div>
+                    <div class="contact-form">
+                      <form action="#" method="post" id="contact_form">
+                        <div class="name">
+                          <label for="name"></label>
+                          <input type="text" placeholder="Имя" id="name" required="">
+                        </div>
+                        <div class="email">
+                          <label for="email"></label>
+                          <input type="email" placeholder="Почта" id="email" required="">
+                        </div>
+                        <div class="telephone">
+                          <label for="name"></label>
+                          <input type="text" placeholder="Номер телефона" id="phone" required="">
+                        </div>
+                        <div class="message">
+                          <label for="message"></label>
+                          <textarea name="message" placeholder="Вопросы" id="message_input" cols="30" rows="5" required=""></textarea>
+                        </div>
+                        <div class="submit">
+                          <button type="button home-cta" class="btn btn-danger btn-lg btn3d"></span> Отправить</button>
+                        </div>
+                        </form>
                     </div>
-                    <div class="form-row">
-                    <div class="form-group col-md-6">
-                            <input type="text" class="form-control" id="fio" placeholder="ФИО родителя *">
-                          </div>
-                    <div class="form-group col-md-6">
-                      <input type="text" class="form-control" id="telefon" placeholder="Телефон *">
-                    </div>
-                    </div>
-                    <div class="form-group">
-                            <textarea class="form-control" id="sms" rows="3" placeholder="Ваше сообщение"></textarea>
-                          </div>
-   
-                    <button type="submit" class="btn btn-primary">Sign in</button>
-                  </form>
-       </div>
+                  </div>
+              
+                   </div>
+                </div> 
     </div>
     </main>
     <footer>

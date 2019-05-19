@@ -6,6 +6,9 @@ header {
       img {
         width: 227px;
       }
+      p{
+        text-align: center;
+      }
     }
     display: flex;
     justify-content: space-between;
@@ -172,7 +175,7 @@ header {
       }
     }
     .dropdown-menu {
-      z-index: 2;
+      z-index: 12; 
       top: 4px;
       border-radius: 0;
       left: -51px !important;
