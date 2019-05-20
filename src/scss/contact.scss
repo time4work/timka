@@ -88,21 +88,22 @@
     background-color: $rose;
     margin-top: 3rem;
   }
-  .contact-form {
-    p {
-      font-family: AvenirNextCyr;
-      font-size: 33.5px;
-      font-weight: bold;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: normal;
-      letter-spacing: normal;
-      text-align: center;
-      margin: 4rem 0;
-    }
-    form {
-      width: 45%;
-      margin: 0 auto;
-    }
+  .wrapper-contact-form {
+    margin: 2rem 0;
+  //   p {
+  //     font-family: AvenirNextCyr;
+  //     font-size: 33.5px;
+  //     font-weight: bold;
+  //     font-style: normal;
+  //     font-stretch: normal;
+  //     line-height: normal;
+  //     letter-spacing: normal;
+  //     text-align: center;
+  //     margin: 4rem 0;
+  //   }
+  //   form {
+  //     width: 45%;
+  //     margin: 0 auto;
+  //   }
   }
 }
