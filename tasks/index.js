@@ -1,19 +1,16 @@
 const gulp = require('gulp');
 const path = require("path");
-Promise = require('bluebird');
-
 const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 const prefixer = require('gulp-autoprefixer');
 const sourcemaps = require('gulp-sourcemaps');
-
-// const browserSync = require("browser-sync").create();
-
 const browserify = require('browserify');
 const babelify = require('babelify');
 const source = require('vinyl-source-stream');
 const buffer = require('vinyl-buffer'); 
 const uglify = require('gulp-uglify');
+Promise = require('bluebird');
+// const browserSync = require("browser-sync").create();
 
 const rootDIR = global.__basedir;
 const entryDIR = 'src';
@@ -21,21 +18,13 @@ const outputDIR = 'dist';
 
 const javascriptFILES = ['script.js', 'ajax.js', 'main-page-script.js'];
 const javascriptDIR = 'js';
-
-const sassFILE = 'styles.scss';
-const sassDIR = 'scss';
-const stylesDIR = 'css';
-
-
 const jsTask = function() {
     const out_path = path.join(rootDIR, outputDIR, javascriptDIR);
-
     let output = '';
 
     return Promise.map( javascriptFILES, async item => {
-        // const item = path.join(rootDIR, entryDIR, javascriptDIR, itemName);
         output += item + '\n';
-        
+
         await browserify({
             entries: [
                 path.join(rootDIR, entryDIR, javascriptDIR, item)
@@ -61,15 +50,13 @@ const jsTask = function() {
 };
 module.exports.js = jsTask;
 
+const sassFILE = 'styles.scss';
+const sassDIR = 'scss';
+const stylesDIR = 'css';
 const styleTask = function () {
     const in_path = path.join(rootDIR, entryDIR, sassDIR);
     const out_path = path.join(rootDIR, outputDIR, stylesDIR);
     const file_path = `${in_path}/${sassFILE}`;
-
-    // console.log(in_path);
-    // console.log(out_path);
-    console.log('file', file_path);
-
     return gulp.src( file_path)
         .pipe( sourcemaps.init())
         .pipe( sass( {
@@ -89,6 +76,34 @@ const styleTask = function () {
         .pipe( gulp.dest( out_path));
 };
 module.exports.style = styleTask;
+
+const fontDIR = 'fonts';
+const fontTask = function () {
+    const in_path = path.join(rootDIR, entryDIR, fontDIR);
+    const out_path = path.join(rootDIR, outputDIR, fontDIR);
+    console.log('fonts',in_path, `${in_path}/*`)
+    return gulp.src( `${in_path}/*`)
+        .pipe( gulp.dest( out_path));
+};
+module.exports.fonts = fontTask;
+
+const htmlDIR = 'templates';
+const htmlTask = function () {
+    const in_path = path.join(rootDIR, entryDIR, htmlDIR);
+    const out_path = path.join(rootDIR, outputDIR);
+    return gulp.src( `${in_path}/*`)
+        .pipe( gulp.dest( out_path));
+};
+module.exports.html = htmlTask;
+
+const imgDIR = 'img';
+const imgTask = function () {
+    const in_path = path.join(rootDIR, entryDIR, imgDIR);
+    const out_path = path.join(rootDIR, outputDIR, imgDIR);
+    return gulp.src( `${in_path}/*`)
+        .pipe( gulp.dest( out_path));
+};
+module.exports.img = imgTask;
 
 const watchTask = async function () {
     const js_path = path.join(rootDIR, entryDIR, javascriptDIR);
