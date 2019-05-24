@@ -16,7 +16,7 @@ const rootDIR = global.__basedir;
 const entryDIR = 'src';
 const outputDIR = 'dist';
 
-const javascriptFILES = ['script.js', 'ajax.js', 'main-page-script.js'];
+const javascriptFILES = ['script.js'];
 const javascriptDIR = 'js';
 const jsTask = function() {
     const out_path = path.join(rootDIR, outputDIR, javascriptDIR);
