@@ -2,13 +2,20 @@ class Module {
     constructor () {
         console.log('Module constructor');
     }
-    get main() {
-    	return require('./main');
+    test() {
+        console.log('t');
+        // const main = require('./main');
+        // import main from './main'; 
+        return require('./main');
     }
-    get news() {
+    main() {
+        const main = require('./main');
+        return main;
+    }
+    news() {
     	return require('./news');
     }
-    get gallery() {
+    gallery() {
     	return require('./gallery');
     }
 }

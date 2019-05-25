@@ -1,12 +1,14 @@
 export default function () {
     const categorySelect = function() {
-        let page = window.location.pathname.match(/(?<=page\/)\d+/);
-        page = page ? page[0] : 1;
+        // let page = window.location.pathname.match(/(?<=page\/)\d+/);
+        // page = page ? page[0] : 1;
 
         const val = $(this).val();
-        const link = `${window.location.origin}/wp-json/ajax/cat=${val}/page=${page}`;
+        const link = `${window.location.origin}/wp-json/ajax/news`;
 
-        $.get(link, function(data) {
+        $.get(link, {
+            constact_id: val
+        }, function(data) {
             const container = $('#article-container');
 
             container.empty();
@@ -29,8 +31,8 @@ export default function () {
                     <button class="but">${readMoreText}</button>
                 `);
             }
-            $('#pagination').remove();
-            $(data.pagination).insertAfter(container);
+            // $('#pagination').remove();
+            // $(data.pagination).insertAfter(container);
         });
     }
 
