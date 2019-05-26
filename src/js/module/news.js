@@ -1,4 +1,5 @@
-export default function () {
+module.exports = function (args) {
+    console.log('news')
     const categorySelect = function() {
         // let page = window.location.pathname.match(/(?<=page\/)\d+/);
         // page = page ? page[0] : 1;
