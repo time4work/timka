@@ -80,8 +80,9 @@
 
     //point
     font-size: 5em;  
-    color: #84ce6e;
-    text-shadow: -2px -1px 1px #659955;
+    // color: #84ce6e;
+    color: #78e358;
+    text-shadow: -2px -1px 1px #659955, 1px -0px 1px #fff;
 
     // font-size: 7em;  
     // color: #659955;
@@ -126,8 +127,11 @@
     width: 100%;
     height: 100%;
     z-index: 2;
-    background-color: #ffffff73;
     opacity: .7;
+    // background-color: #ffffff73;
+    //point
+    top: 0;
+    background-color: #bfbfbfb3;
 }
 
 .btn.btn-lg {padding: 10px 40px;}
