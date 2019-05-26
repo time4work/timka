@@ -1,3 +1,3 @@
-export default function () {
+module.exports = function (args) {
 	console.log('gallery');
 }

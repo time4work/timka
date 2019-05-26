@@ -2,21 +2,14 @@ class Module {
     constructor () {
         console.log('Module constructor');
     }
-    test() {
-        console.log('t');
-        // const main = require('./main');
-        // import main from './main'; 
-        return require('./main');
+    main(args) {
+        return require('./main')(args);
     }
-    main() {
-        const main = require('./main');
-        return main;
+    news(args) {
+    	return require('./news')(args);
     }
-    news() {
-    	return require('./news');
-    }
-    gallery() {
-    	return require('./gallery');
+    gallery(args) {
+    	return require('./gallery')(args);
     }
 }
 export default Module;

@@ -25,12 +25,3 @@ gulp.task('watch', function() {
   gulp.watch('src/**/*', gulp.parallel(taskNames));
 });
 gulp.task('default', gulp.series(['watch']));
-// gulp.task('watch', gulp.series('style', 'fonts', 'js', 'html', 'img'));
-// gulp.watch('watch', 
-// 	'default'
-// 	// function () {
-// 	//     return watch('src/*', function () {
-// 	//     	gulp.series(taskNames);
-// 	//     });
-// 	// }
-// );
