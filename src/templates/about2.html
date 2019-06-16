@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Timka</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <script src="js/script.min.js"></script>
+    </head>
+
+<!-- .header-img img -->
+<style type="text/css">
+.p-header-img {
+    height: calc(100vh - 191px - 300px);
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.p-header-img img.back-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.p-header-img img.front-img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: 0;
+}
+.p-header-img .sky {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*.sky canvas {
+    width: 100%;
+    height: 100%;
+}*/
+
+</style>
+
+    <body>
+        <header>
+            <div class="wrapper">
+                <div class="top-menu">
+                    <div class="logo"><img src="img/Logo.png" alt=""></div>
+                    <div class="contact-menu">
+                        <div class="contact"><i class="fa fa-envelope"></i>info@yoursite.com</div>
+                        
+                        <div class="contact"><i class="fa fa-map-marker-alt"></i>Днепровская Набережная 25</div>
+                        <div class="contact"><i class="fa fa-phone"></i>+38 (044) 275 46 46</div>
+                    </div>
+                </div>
+            </div>
+            <nav>
+                <ul >
+                    <li class="nav-item main-link"><a href="index.html" class="nav-link">Главная</a></li>
+                    <li class="nav-item about-link dropdown active" >
+                        <a  class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown"  aria-haspopup="true" aria-expanded="false">О нас</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="schedule.html">Расписание</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Питание</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Развитие</a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item design-link"><a href="interior.html" class="nav-link">Интерьер</a></li>
+                    <li class="nav-item galery-link "><a href="gallery.html" class="nav-link">Галерея</a></li>
+                    <li class="nav-item contact-link"><a href="contact.html" class="nav-link">Контакты</a></li>
+                    <li class="nav-item price-link"><a href="price.html" class="nav-link">Цена</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+
+
+        <main id="about">
+            <div class="p-header-img">
+                <!-- <img src="img/header-img.png" alt=""> -->
+                <img class='back-img' src="http://skrealand.com/wp-content/uploads/2012/02/2012-02-23_15-04-07_674.jpg">
+                <div class="sky">
+                    <canvas id="canvas" class="canvas"></canvas>
+                </div>
+                <img class='front-img' src="img/clouds1.png" alt="">
+            </div>
+
+
+            <div class="container">
+                <div class="wrapper row">
+                    <div class="breadcrumbs">Главная / О нас</div>
+
+                    <div class="wrapper-article">
+                        <h1>О нас</h1>
+                        <div class="left-bar container">
+                            <p>Для Вашего малыша – приветливые, добрые воспитатели – квалифицированные специалисты, которые будут заниматься, развивать и играть.  </p>
+                            <p><i class="far fa-check-square"></i> Садик работает с 8:00 до 19:00 </p>
+                            <p><i class="far fa-check-square"></i> Просторные и уютные группы (общая площадь садика 540 м2) </p>
+                            <p><i class="far fa-check-square"></i> 5-и разовое сбалансированное здоровое детское питание, приготовленное на профессиональном оборудовании</p>
+                            <p><i class="far fa-check-square"></i> ежедневный контроль мед. работника</p>
+                            <p><i class="far fa-check-square"></i> ежедневные развивающие занятия</p>
+                            <p><i class="far fa-check-square"></i> увлекательный английский язык в игровой форме; музыкальные занятия</p>
+                            <p><i class="far fa-check-square"></i> творческие занятия</p>
+                            <p><i class="far fa-check-square"></i> яркие незабываемые костюмированные праздники: Осени, Нового года, Весны, Выпускного</p>
+                            <p><i class="far fa-check-square"></i> прогулка на собственной оборудованной игровой площадке, охрана</p>
+                            <img src="img/galary3.jpg" alt="">
+                            
+                            <div class="admission">
+                                <h5>Что необходимо для поступления:</h5>
+                                <p>- посетить наш садик, чтобы получить полную   информацию и составить собственное мнение;
+                                </p><p>
+                            - предварительно зарезервировать место в группе;</p>
+                            <p>
+                                
+                            - ознакомится и подписать договор и правила садика;</p>
+                            <p>
+                                
+                            - заполнить анкету малыша;</p>
+                            <p>
+                                
+                            - предоставить копию свидетельства рождения ребенка;</p>
+                            <p>
+                                
+                            - предоставить 2-е фотографии (3х4) ребенка;</p>
+                            <p>
+                                
+                            - предоставить копии паспортов и идентификационных кодов родителей;</p>
+                            <p>
+                                
+                                - принести медицинскую карточку ( форма 2У).
+                            </p>
+                        </div>
+                    </div>
+                    
+
+                    <div class="right-bar">
+                        <div class="category">
+                            <p>O нас</p>
+                            <ul>
+                                <li><a><i class="fa fa-caret-right"></i>Расписание</a></li>
+                                <li><a><i class="fa fa-caret-right"></i>Питание</a></li>
+                                <li><a><i class="fa fa-caret-right"></i>Развитие</a></li>
+                            </ul>
+                        </div>
+                        <a href="#" data-toggle="modal" data-target="#modal" >
+                            <div class="category certificate" >
+                                
+                                <p>Документ</p>
+                                <i class="far fa-file-pdf"></i>
+                                
+                            </div>
+                        </a>
+                        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-notify modal-info" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <p class="heading lead">Modal Info</p>
+                                        
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true" class="white-text">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="text-center">
+                                            <i class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis
+                                                ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione fuga, enim,
+                                            ab officiis totam.</p>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer justify-content-center">
+                                        <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">No, thanks</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="last-news">
+                            <p>Последние новости</p>
+                            <div class="preview-news">
+                                <p class="title">День матери</p>
+                                <span>Проведение праздников в рамках детского садика</span>
+                            </div>
+                            <div class="preview-news">
+                                <p class="title">День матери</p>
+                                <span>Проведение праздников в рамках детского садика</span>
+                            </div>
+                            <div class="preview-news">
+                                <p class="title">День матери</p>
+                                <span>Проведение праздников в рамках детского садика</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+
+
+
+    <footer>
+        <div class="wrapper container">
+            <div class="footer-contact">
+                <div class="logo"><img src="img/Logo.png" alt=""></div>
+                <div class="contact c-t"><i class="fa fa-phone"></i>+38 (044) 275 46 46</div>
+                <div class="contact"><i class="fa fa-map-marker-alt"></i>Днепровская Набережная 25</div>
+                <div class="contact"><i class="fa fa-envelope"></i>info@yoursite.com</div>
+                <div class="contact"><i class="fa fa-phone"></i>ПН-ВС: 07:00-18:00</div>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="about.html">О нас</a></li>
+                    <li class="pod-cat"><a href="schedule.html" >Расписание</a></li>
+                    <li class="pod-cat"><a>Питание</a></li>
+                    <li class="pod-cat"><a>Занятие</a></li>
+                    <li><a href="interior.html">Интерьер</a></li>
+                    <li><a href="news.html">Новости</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="price.html">Цена</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact-us">
+                <h1>Подпишитесь на нашу рассылку!</h1>
+                <p>Будьте в курсе всех новостей и скидок наших услуг  обучения в садике Тимкаю</p>
+                <div class="formBox">
+                    <form>
+                        <div class="inputBox">
+                            <div class="inputText">Email</div>
+                            <input type="text" name="" class="input">
+                        </div>
+                    </form>
+                </div>
+                <button class="but">Подписаться</button>
+            </div>
+        </div>
+        <div class="footer-parallax">
+            <div class="layer-1"><img src="img/fut1-01.png" alt=""></div>
+            <div class="layer-2"><img src="img/fut2-01.png" alt=""></div>
+            <div class="layer-3"><img src="img/fut3-01.png" alt=""></div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+<script>
+var Cloud, CloudProcessor, Coordinate, myclouds;
+
+Coordinate = (function() {
+  function Coordinate(x, y) {
+    this.x = x;
+    this.y = y;
+  }
+
+  Coordinate.prototype.add = function(byx, byy) {
+    if (arguments.length === 1) {
+      this.x = this.x + byx;
+      this.y = this.y + byx;
+    } else {
+      this.x = this.x + byx;
+      this.y = this.y + byy;
+    }
+    return this;
+  };
+
+  return Coordinate;
+
+})();
+
+Cloud = (function() {
+  function Cloud(location, scale, opacity, rate) {
+    this.location = location;
+    this.scale = scale;
+    this.opacity = opacity;
+    this.rate = rate;
+    this.alive = true;
+  }
+
+  Cloud.prototype.dead = function() {
+    return this.alive = false;
+  };
+
+  return Cloud;
+
+})();
+
+CloudProcessor = (function() {
+  function CloudProcessor(number) {
+    var msie, trident, useragent;
+    this.number = number;
+    this.minscale = 50;
+    this.maxscale = 80;
+    this.minxpercent = 0;
+    this.maxxpercent = 100;
+    this.minypercent = 0;
+    this.maxypercent = 100;
+    this.minopacity = 80;
+    this.maxopacityt = 100;
+    this.minxrate = 30;
+    this.maxxrate = 70;
+    this.minyrate = 0;
+    this.maxyrate = 0;
+    this.frames = 30;
+    this.canvas = $("#canvas")[0];
+    this.ctx = this.canvas.getContext('2d');
+    this.canvas.width = window.innerWidth;
+    // this.canvas.height = window.innerHeight;
+    this.canvas.height = 400;
+    this.loaded = false;
+    this.running = true;
+    this.cloudimage = new Image();
+    this.cloudimage.onload = (function(_this) {
+      return function() {
+        return _this._doneLoading();
+      };
+    })(this);
+    useragent = $(window)[0].navigator.userAgent;
+    msie = useragent.indexOf("MSIE");
+    trident = useragent.indexOf("Trident");
+    if (msie > 0 || trident > 0) {
+      this.cloudimage.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/309492/cloud.png";
+    } else {
+      this.cloudimage.src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/309492/cloud.svg";
+    }
+  }
+
+  CloudProcessor.prototype._doneLoading = function() {
+    var i, lp, ref;
+    this.cloudwidth = this.cloudimage.width;
+    this.cloudheight = this.cloudimage.height;
+    this.clouds = new Array();
+    for (lp = i = 0, ref = this.number; 0 <= ref ? i <= ref : i >= ref; lp = 0 <= ref ? ++i : --i) {
+      this.spawn();
+    }
+    this.loaded = true;
+    setInterval((function(_this) {
+      return function() {
+        return _this.run();
+      };
+    })(this), 1000 / this.frames);
+    return $(window).resize((function(_this) {
+      return function() {
+        return _this.resize();
+      };
+    })(this));
+  };
+
+  CloudProcessor.prototype.resize = function() {
+    this.canvas.width = window.innerWidth;
+    this.canvas.height = window.innerHeight;
+    return this;
+  };
+
+  CloudProcessor.prototype.spawn = function() {
+    var child;
+    child = this.makecloud(false);
+    this.clouds.push(child);
+    return this;
+  };
+
+  CloudProcessor.prototype.makecloud = function(offscreen) {
+    var child, guesscloudheight, guesscloudwidth, height, opacity, scalefactor, width, x, xrate, y, yrate;
+    if (offscreen == null) {
+      offscreen = false;
+    }
+    width = $("#canvas").width();
+    height = $("#canvas").height();
+    scalefactor = this.randNumber(this.minscale, this.maxscale) / 100;
+    x = Math.floor(width * (this.randNumber(this.minxpercent, this.maxxpercent) / 100));
+    y = Math.floor(height * (this.randNumber(this.minypercent, this.maxypercent) / 100));
+    guesscloudwidth = Math.floor(this.cloudwidth * scalefactor);
+    guesscloudheight = Math.floor(this.cloudheight * scalefactor);
+    y = Math.min(y, height - guesscloudheight);
+    x = Math.min(x, width - guesscloudwidth);
+    xrate = this.randNumber(this.minxrate, this.maxxrate) / this.frames;
+    yrate = this.randNumber(this.minyrate, this.maxyrate) / this.frames;
+    if (offscreen === true) {
+      if (xrate === 0) {
+        y = -guesscloudheight;
+      } else if (yrate === 0) {
+        x = -guesscloudwidth;
+      } else {
+        y = -guesscloudheight;
+        if (this.randNumber(0, 1) === 1) {
+          x = -x / 2;
+        }
+      }
+    }
+    opacity = this.randNumber(this.minopacity, this.maxopacityt) / 100;
+    child = new Cloud(new Coordinate(x, y), scalefactor, opacity, new Coordinate(xrate, yrate));
+    return child;
+  };
+
+  CloudProcessor.prototype.update = function(id) {
+    var at, height, rate, width;
+    if (this.clouds[id].alive === false) {
+      return this;
+    }
+    width = $("#canvas").width();
+    height = $("#canvas").height();
+    rate = this.clouds[id].rate;
+    this.clouds[id].location.add(rate.x, rate.y);
+    at = this.clouds[id].location;
+    if (rate.y === 0) {
+      if (at.x > width + this.cloudwidth) {
+        this.clouds[id].dead();
+      }
+    } else if (rate.x === 0) {
+      if (at.y > height + this.cloudheight) {
+        this.clouds[id].dead();
+      }
+    } else {
+      if (at.x > width + this.cloudwidth && at.y > height + this.cloudheight) {
+        this.clouds[id].dead();
+      }
+    }
+    return this;
+  };
+
+  CloudProcessor.prototype.respawn = function(id) {
+    if (this.clouds[id].alive === true) {
+      return this;
+    }
+    return this.clouds[id] = this.makecloud(true);
+  };
+
+  CloudProcessor.prototype.updateAll = function() {
+    var i, lp, ref, results;
+    results = [];
+    for (lp = i = 0, ref = this.number; 0 <= ref ? i <= ref : i >= ref; lp = 0 <= ref ? ++i : --i) {
+      this.update(lp);
+      results.push(this.respawn(lp));
+    }
+    return results;
+  };
+
+  CloudProcessor.prototype.draw = function(id) {
+    var child, h, location, w;
+    child = this.clouds[id];
+    location = child.location;
+    w = Math.floor(this.cloudwidth * child.scale);
+    h = Math.floor(this.cloudheight * child.scale);
+    this.ctx.save();
+    this.ctx.globalAlpha = child.opacity;
+    this.ctx.drawImage(this.cloudimage, location.x, location.y, w, h);
+    this.ctx.restore();
+    return this;
+  };
+
+  CloudProcessor.prototype.drawAll = function() {
+    var height, i, lp, ref, results, width;
+    width = $("#canvas").width();
+    height = $("#canvas").height();
+    this.ctx.clearRect(0, 0, width, height);
+    results = [];
+    for (lp = i = 0, ref = this.number; 0 <= ref ? i <= ref : i >= ref; lp = 0 <= ref ? ++i : --i) {
+      results.push(this.draw(lp));
+    }
+    return results;
+  };
+
+  CloudProcessor.prototype.run = function() {
+    this.updateAll();
+    return this.drawAll();
+  };
+
+  CloudProcessor.prototype.randNumber = function(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
+  };
+
+  return CloudProcessor;
+
+})();
+
+myclouds = new CloudProcessor(5);
+
+// ---
+// generated by coffee-script 1.9.2
+</script>
+
+</body>
+</html>
